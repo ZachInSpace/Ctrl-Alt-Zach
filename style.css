@@ -19,6 +19,19 @@ header {
   text-align: center;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.site-logo {
+  height: 50px;
+  width: auto;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -62,4 +75,16 @@ footer {
   padding: 20px 0;
   background: #111;
   color: #aaa;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.footer-logo img {
+  height: 40px;
+  width: auto;
+  opacity: 0.8;
 }
