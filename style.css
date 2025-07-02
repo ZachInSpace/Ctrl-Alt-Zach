@@ -28,7 +28,7 @@ header {
 }
 
 .site-logo {
-  height: 20px;
+  height: 30px;
   width: auto;
   max-width: 100%;
   object-fit: contain;
@@ -86,7 +86,7 @@ footer {
 }
 
 .footer-logo img {
-  height: 20px;
+  height: 30px;
   width: auto;
   opacity: 0.8;
 }
